@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
 
 img{             /*estilo das imagens*/
@@ -13,7 +15,7 @@ a{/*teg link/ acordo */
     color: var(--gm3-sys-color-on-surface, #1f1f1f);/*cor do texto */
     font-size: 13px;/*tamanho da fonte */
     font-family: Arial, Helvetica, sans-serif;/*tipo/familia da fonte */
-    
+   
 }
 
 a{/*teg link/ acordo */
@@ -41,5 +43,13 @@ footer{/*seletor da teg footer/roda pe */
     letter-spacing: .1rem;
     font-family:  14px,Arial,sans-serif;
     padding: 0px 20px;
+
     
+}
+.caixa-rodape{
+    padding: 15px 30px;
+    
+}
+.caixa-rodape-borda{
+    border-bottom: 1px solid #dadce0;/* borda inferior */
 }
