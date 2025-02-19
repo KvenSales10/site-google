@@ -43,13 +43,27 @@ footer{/*seletor da teg footer/roda pe */
     letter-spacing: .1rem;
     font-family:  14px,Arial,sans-serif;
     padding: 0px 20px;
-
+    
     
 }
 .caixa-rodape{
     padding: 15px 30px;
-    
+    display: flex;
+    justify-content: space-between;
 }
 .caixa-rodape-borda{
     border-bottom: 1px solid #dadce0;/* borda inferior */
+}
+
+header{/*cabeçalho*/
+     display:flex;
+     justify-content: flex-end;
+     align-items: center;
+     gap: 15px;
+     padding: 10px 14px; 
+}
+.caixa-link{
+    display: flex;
+    gap: 30px;
+
 }
