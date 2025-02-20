@@ -18,31 +18,48 @@ a{/*teg link/ acordo */
    
 }
 
-a{/*teg link/ acordo */
-    text-decoration: none;/*torou decoraçao do texto */
-    color: var(--gm3-sys-color-on-surface, #1f1f1f);/*cor do texto */
-    font-size: 13px;/*tamanho da fonte */
-    font-family: Arial, Helvetica, sans-serif;/*tipo/familia da fonte */
-}
+/*main*/
+.icone-lupa{
+    width: 20px;
+    fill: #9aa0a6;
 
-.botao-loguin{
-    background-color: rgb(44, 44, 255);/*cor de fundo */
-    font-family: Arial, Helvetica, sans-serif;/*cor do texto */
-    color: white;/*estaçamento interno */
-    padding: 13px 12px;/*peso da fonte */
-    border-radius: 40px;/*raio da borada (curvatura)*/
-    
 }
-
-.icone-produtos{
-    width:24px;
-    
+.icone-teclado{
+    width: 16px;
+    height: 12px;
 }
+.icone-voz{
+    width: 24px;
+}
+.icone-camera{
+    width: 24px;
+}
+.caixa-pesquisa{
+    display: flex;
+    width: 583px;
+    padding: 10px 14px;
+    align-items: center;
+    gap: 13px;
+    border: 1px solid #dfe1e5 ;
+    border-radius: 100px;
+}
+.caixa-icone{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.iputn-pesquisa{
+    width: 100px;
+    border: none;
+    outline: none;
+}
+/*rodape*/
 footer{/*seletor da teg footer/roda pe */
     background-color: #f2f2f2;/*cor de fundo */
     letter-spacing: .1rem;
     font-family:  14px,Arial,sans-serif;
     padding: 0px 20px;
+    
     
     
 }
@@ -54,16 +71,29 @@ footer{/*seletor da teg footer/roda pe */
 .caixa-rodape-borda{
     border-bottom: 1px solid #dadce0;/* borda inferior */
 }
+.caixa-link{
+    display: flex;
+    gap: 30px;
+}
 
-header{/*cabeçalho*/
+
+/*cabeçalho*/
+header{
      display:flex;
      justify-content: flex-end;
      align-items: center;
      gap: 15px;
      padding: 10px 14px; 
 }
-.caixa-link{
-    display: flex;
-    gap: 30px;
+.botao-loguin{
+    background-color: rgb(44, 44, 255);/*cor de fundo */
+    font-family: Arial, Helvetica, sans-serif;/*cor do texto */
+    color: white;/*estaçamento interno */
+    padding: 13px 12px;/*peso da fonte */
+    border-radius: 40px;/*raio da borada (curvatura)*/
+    
+}
 
+.icone-produtos{
+    width:24px;
 }
